@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family: 'Poppins', sans-serif;
+    --navbar-ul-color:#5C5C5C;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+h2{
+font-size: 32px;
+font-weight: 300;
+font-family: var(--font-family);
+}
+h3{
+font-size: 28px;
+font-weight: 300;
+font-family: var(--font-family);
+}
+h4{
+font-size: 20px;
+font-weight: 300;
+font-family: var(--font-family);
+}
+h5{
+font-size: 15px;
+font-weight: 500;
+font-family: var(--font-family);
+}
+h6{
+font-size: 15px;
+font-weight: 300;
+font-family: var(--font-family);
+}
+p{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: var(--font-family);
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navbar-ul-color);
+    padding: 10px 20px !important;
+    font-family: var(--font-family);
+}
+.navbar{
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.cart-icon {
+    position: relative;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: 9px;
+    right: -8px;
+    background-color: pink;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.add-to-cart-button{
+    border: 1px solid #F0F0F0;
+}
+.add-to-cart-button:hover{
+    background-color: pink;
+    color: white;
+}
+.footer{
+    background-color: #F0F0F0;
+}
+.usefull_links h4{
+    margin-left: 2rem;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #1b1919 !important;
+}
+.img-1{
+    border-radius: 15px;
+}
