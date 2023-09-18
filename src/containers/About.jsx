@@ -1,9 +1,15 @@
 import React from 'react'
+import OurStory from '../components/ourStory'
+import ImagesDetail from '../components/ImagesDetail'
+import OurChef from '../components/OurChef'
+
 
 const About = () => {
   return (
     <>
-     <h1>About Page</h1> 
+     <OurStory/>
+     <ImagesDetail/>
+     <OurChef/>
     </>
   )
 }

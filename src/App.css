@@ -8,6 +8,7 @@
 :root{
     --font-family: 'Poppins', sans-serif;
     --navbar-ul-color:#5C5C5C;
+    --yellow:#ffc107;
 }
 h1{
     font-size: 50px;
@@ -95,4 +96,117 @@ ul li a{
 }
 .img-1{
     border-radius: 15px;
+}
+.chefButton{
+    color: #000;
+    background-color: var(--yellow);
+    padding: 10px 12px;
+    border: none;
+}
+.default_button{
+    background-color: var(--yellow);
+    border: 0;
+    padding: 4px 20px;
+}
+.our-location-map iframe{
+    border-radius: 20px;
+}
+.contact-button{
+    background-color: var(--yellow);
+    padding: 5px 40px;
+    border: 0;
+}
+.contact-data {
+    position: absolute;
+    left: 35%;
+    bottom: 22%;
+    color: #F0F0F0;
+
+}
+.contact_content {
+    position: relative;
+}
+.contact-order-button{
+    background-color: var(--yellow);
+    padding: 5px 40px;
+    border: 0;
+    border-radius: 2em;
+}
+.form-control{
+    border-radius: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){ 
+
+    h1{
+        font-size: 32px;
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+    h2{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: var(--font-family);
+    }
+    h3{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--font-family);
+    }
+    h4{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: var(--font-family);
+    }
+    h5{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    }
+    h6{
+    font-size: 8px;
+    font-weight: 300;
+    font-family: var(--font-family);
+    }
+    .contact-order-button{
+        background-color: var(--yellow);
+        padding: 2px 25px;
+        border: 0;
+        border-radius: 2em;
+        
+    
+    
+    }
+    .leaveusmessage{
+        padding: 0 !important;
+        text-align: center;
+    }
+    .our-location-map iframe{
+        max-width: 360px;
+        text-align: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+
+    .story_img{
+        margin-top: 2rem;
+    }
+    .contact_img{
+        margin-top: 2rem;
+    }
+    .contact-data{
+        align-items: center;
+        margin: 0 auto;
+    }
 }
