@@ -29,10 +29,10 @@ const Footer = () => {
                     {" "}
                     <li>Contact</li>
                   </Link>
-                  <Link to="/" className="text-dark">
+                  <Link to="/privacy-policy" className="text-dark">
                     <li>Privacy Policy</li>
                   </Link>
-                  <Link to="/" className="text-dark">
+                  <Link to="/term-condition" className="text-dark">
                     <li>Terms & Conditions</li>
                   </Link>
                 </ul>

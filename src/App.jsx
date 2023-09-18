@@ -11,6 +11,8 @@ import Menu from './containers/Menu'
 import Locations from './containers/Locations'
 import Cart from './containers/Cart'
 import Footer from './components/Footer'
+import PrivacyPolicy from './containers/PrivacyPolicy'
+import TermCondition from './containers/TermCondition'
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Route exact path='/menu' element={<Menu/>}/>
       <Route exact path='/locations' element={<Locations/>}/>
       <Route exact path='/cart' element={<Cart/>}/>
+      <Route exact path='/privacy-policy' element={<PrivacyPolicy/>}/>
+      <Route exact path='/term-condition' element={<TermCondition/>}/>
      </Routes>
      <Footer/>
     </>
