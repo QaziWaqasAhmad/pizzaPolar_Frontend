@@ -13,8 +13,6 @@ import Cart from './containers/Cart'
 import Footer from './components/Footer'
 import PrivacyPolicy from './containers/PrivacyPolicy'
 import TermCondition from './containers/TermCondition'
-import Login from './containers/Auth/Login'
-
 
 function App() {
 
@@ -23,7 +21,6 @@ function App() {
     <TopNavbar/>
     <Navbar/>
      <Routes>
-      {/* <Route exact path='/login' element={<Login/>}/> */}
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/orders' element={<Orders/>}/>
       <Route exact path='/about' element={<About/>}/>
