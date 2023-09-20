@@ -8,6 +8,8 @@
 :root{
     --font-family: 'Poppins', sans-serif;
     --navbar-ul-color:#5C5C5C;
+    --extra-color:#ffc107;
+    --gray-color:#f0f0f0;
 }
 h1{
     font-size: 50px;
@@ -95,4 +97,29 @@ ul li a{
 }
 .img-1{
     border-radius: 15px;
+}
+.extra-text{
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: var(--extra-color);
+
+}
+.about-heading{
+    font-weight: lighter;
+}
+.our-mission{
+   background-color: var(--gray-color);
+   border-radius: 20px;
+}
+.about-img{
+    margin-top: 4rem;
+}
+.our-location-map iframe{
+    border-radius: 20px;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    overflow-x: none;
+    width: 50% !important ;
 }
